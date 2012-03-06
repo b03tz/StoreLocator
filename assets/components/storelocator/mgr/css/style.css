@@ -1,0 +1,27 @@
+.sl-ajax-loading {
+	background-image: url(../images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 32px;
+	padding-left: 40px;
+	line-height: 34px;
+	z-index: 10000000000;
+}
+
+.sl-ajax-haze {
+	position: absolute;
+	top: -800px;
+	left: -800px;
+	width: 8000px;
+	height: 4000px;
+	z-index: 10;
+	background-color: black;
+	opacity: 0.5;
+	display: none;
+}
+
+.sl-description {
+	font-size: 9px;
+	color: #555;
+}
