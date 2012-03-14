@@ -36,3 +36,4 @@ $_lang['storelocator.address_not_found'] = 'Address not found, please try again'
 $_lang['storelocator.address'] = 'Enter your address';
 $_lang['storelocator.radius'] = 'Radius';
 $_lang['storelocator.click_to_view'] = 'Click here to view';
+$_lang['storelocator.noresults'] = 'No stores found, please try a different radius.';

@@ -1,1 +1,9 @@
-1.0: Initial Version
+1.0.1
+---------------------
+- Added the no-results chunk to the elements
+- Added no-result to default lexicon
+- Changed about screen
+
+1.0
+---------------------
+Initial Version

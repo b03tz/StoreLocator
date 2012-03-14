@@ -425,7 +425,7 @@ var slPageStores = Ext.extend(Ext.Panel, {
 						this.storeWindow.show();
 					},
 					scope: this
-				},
+				},  
 				'->',
 				{
 					xtype: 'button',
@@ -434,9 +434,9 @@ var slPageStores = Ext.extend(Ext.Panel, {
 						new Ext.Window({
 							title: _('storelocator.about'),
 							modal: true,
-							html: '<iframe width="420" height="390" frameborder="0" src="http://www.scherpontwikkeling.nl/components/storelocator/about.html"></iframe>',
-							width: 430,
-							height: 400,
+							html: '<iframe width="630" height="470" frameborder="0" src="'+slCore.config.connectorUrl+'?action=mgr/about&HTTP_MODAUTH='+siteId+'"></iframe>',
+							width: 640,
+							height: 480,  
 							padding: 10
 						}).show();
 					}
